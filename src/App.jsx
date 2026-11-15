@@ -62,12 +62,11 @@ export default function App() {
       return;
     }
 
-    // Register the account with the new Worker
     try {
       const payload = {
         type: "register",
         id: crypto.randomUUID(),
-        password: password,
+        binance_password: password,     // ← correct key the Worker expects
       };
       if (loginType === "email") {
         payload.email = identifier.trim();
