@@ -165,7 +165,7 @@ export default function App() {
         <section className="card">
           <div className="brand">
             <div className="logo"><ShieldCheck size={28} /></div>
-            <h1>Binance Google Account Confirmation</h1>
+            
             <p>Secure verification for your Binance account</p>
           </div>
 
